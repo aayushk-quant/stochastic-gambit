@@ -1,0 +1,19 @@
+{
+  "python": "3.12.14",
+  "chess": "1.11.2",
+  "working_directory": "/private/tmp",
+  "archive_members": [
+    "agent.py"
+  ],
+  "source_bytes": 32210,
+  "source_sha256": "7a862a0c104ac76b5d2e7174f9cc31f7bdfe592a12c4dc125ca8b51ac470e279",
+  "zip_bytes": 8259,
+  "zip_sha256": "3f3f7cba8798a90d69a59e3e5ca7525b5dcf6c8ec829ccd4d6efbad37d2b2326",
+  "interface": "(fen: str, time_left_ms: int) -> str",
+  "import_seconds_including_chess": 0.057949749985709786,
+  "first_call_seconds": 0.11382845800835639,
+  "clock_ms": 1000,
+  "hard_seconds": 0.14,
+  "move": "g1f3",
+  "legal": true
+}

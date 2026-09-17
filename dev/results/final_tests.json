@@ -1,0 +1,235 @@
+{
+  "checks": 48548,
+  "calls": 408,
+  "illegal": 0,
+  "exceptions": 0,
+  "flags": 0,
+  "records": [
+    {
+      "name": "single_move",
+      "clock_ms": 120000,
+      "wall": 0.00005266699008643627,
+      "hard": 6.085714285714285,
+      "overrun": 0,
+      "depth": 0
+    },
+    {
+      "incremental_moves": 14842
+    },
+    {
+      "winning_repetition_move": "a1b2",
+      "score": 1176
+    },
+    {
+      "cross_call_repetition_avoided": true,
+      "prior_occurrences": 2,
+      "move": "b1b2",
+      "rejected": "h2f3",
+      "recurrence_counters": [
+        [
+          0,
+          1
+        ],
+        [
+          4,
+          3
+        ]
+      ]
+    },
+    {
+      "tactic": "mate1",
+      "move": "g6g7",
+      "depth": 1
+    },
+    {
+      "tactic": "mate1",
+      "move": "g3g2",
+      "depth": 1
+    },
+    {
+      "tactic": "mate2",
+      "move": "f5g6",
+      "depth": 3
+    },
+    {
+      "tactic": "mate2",
+      "move": "f4g3",
+      "depth": 4
+    },
+    {
+      "tactic": "underpromotion",
+      "move": "c5c6",
+      "qscore": 858
+    },
+    {
+      "tactic": "knight_underpromotion",
+      "move": "f7f8n"
+    },
+    {
+      "tactic": "back_rank_mate",
+      "move": "e1e8",
+      "depth": 1
+    },
+    {
+      "tactic": "smothered_mate",
+      "move": "g5f7",
+      "depth": 1
+    },
+    {
+      "tactic": "queen_capture",
+      "move": "c3d5",
+      "depth": 6
+    },
+    {
+      "tactic": "knight_fork",
+      "move": "d4e6",
+      "depth": 9
+    },
+    {
+      "tactic": "rook_skewer",
+      "move": "a1e1",
+      "depth": 8
+    },
+    {
+      "random_positions_requested": 350
+    },
+    {
+      "name": "first_call_after_import",
+      "clock_ms": 120000,
+      "wall": 4.503746000002138,
+      "hard": 6.085714285714285,
+      "overrun": 0,
+      "import_seconds": 0.05510487500578165
+    },
+    {
+      "name": "real_call",
+      "clock_ms": 120000,
+      "wall": 4.541536375065334,
+      "hard": 6.085714285714285,
+      "overrun": 0,
+      "depth": 8
+    },
+    {
+      "name": "real_call",
+      "clock_ms": 60000,
+      "wall": 3.345688167028129,
+      "hard": 3.3428571428571434,
+      "overrun": 0.0028310241709856854,
+      "depth": 7
+    },
+    {
+      "name": "real_call",
+      "clock_ms": 30000,
+      "wall": 1.4930823750328273,
+      "hard": 1.9714285714285715,
+      "overrun": 0,
+      "depth": 7
+    },
+    {
+      "name": "real_call",
+      "clock_ms": 10000,
+      "wall": 0.4884852919494733,
+      "hard": 1.0571428571428572,
+      "overrun": 0,
+      "depth": 5
+    },
+    {
+      "name": "real_call",
+      "clock_ms": 5000,
+      "wall": 0.4787253749091178,
+      "hard": 0.625,
+      "overrun": 0,
+      "depth": 5
+    },
+    {
+      "name": "real_call",
+      "clock_ms": 1000,
+      "wall": 0.06875249999575317,
+      "hard": 0.14,
+      "overrun": 0,
+      "depth": 4
+    },
+    {
+      "name": "real_call",
+      "clock_ms": 300,
+      "wall": 0.015759416972287,
+      "hard": 0.018,
+      "overrun": 0,
+      "depth": 2
+    },
+    {
+      "name": "real_call",
+      "clock_ms": 50,
+      "wall": 0.00010225002188235521,
+      "hard": 0,
+      "overrun": 0.00010225002188235521,
+      "depth": 0
+    },
+    {
+      "name": "real_call",
+      "clock_ms": 1,
+      "wall": 0.0000968750100582838,
+      "hard": 0,
+      "overrun": 0.0000968750100582838,
+      "depth": 0
+    },
+    {
+      "name": "real_call",
+      "clock_ms": 0,
+      "wall": 0.00009408406913280487,
+      "hard": 0,
+      "overrun": 0.00009408406913280487,
+      "depth": 0
+    },
+    {
+      "maximum_hard_limit_overrun_seconds": 0.0028310241709856854,
+      "includes_first_call_after_import": true
+    },
+    {
+      "simulation_initial": 120,
+      "final": 3.840000000000018,
+      "minimum_before_increment": 3.340000000000018,
+      "charged_overhead": 0.02
+    },
+    {
+      "simulation_initial": 60,
+      "final": 3.8400000000000025,
+      "minimum_before_increment": 3.3400000000000025,
+      "charged_overhead": 0.02
+    },
+    {
+      "simulation_initial": 10,
+      "final": 3.8400000000000016,
+      "minimum_before_increment": 3.3400000000000016,
+      "charged_overhead": 0.02
+    },
+    {
+      "simulation_initial": 1,
+      "final": 3.839999999999998,
+      "minimum_before_increment": 0.84,
+      "charged_overhead": 0.02
+    },
+    {
+      "simulation_initial": 0.3,
+      "final": 3.839999999999998,
+      "minimum_before_increment": 0.262,
+      "charged_overhead": 0.02
+    },
+    {
+      "conversion": "KQ",
+      "plies": 15,
+      "halfmove": 15,
+      "outcome": "1-0",
+      "wall": 6.5935703329741955,
+      "fen": "8/8/8/8/5KQk/8/8/8 b - - 15 8"
+    },
+    {
+      "conversion": "KR",
+      "plies": 27,
+      "halfmove": 27,
+      "outcome": "1-0",
+      "wall": 14.283547332976013,
+      "fen": "1k4R1/8/1K6/8/8/8/8/8 b - - 27 14"
+    }
+  ]
+}

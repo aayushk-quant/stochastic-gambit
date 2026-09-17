@@ -1,0 +1,509 @@
+[
+  {
+    "import_seconds": 0.0063465830171480775
+  },
+  {
+    "move": "g1f3",
+    "score": 12,
+    "depth": 8,
+    "nodes": 25874,
+    "qnodes": 108872,
+    "nps": 53897,
+    "wall": 2.5020091669866815,
+    "tt_hit_rate": 0.45423977738270077,
+    "best_move_changes": 0,
+    "iterations": [
+      {
+        "depth": 1,
+        "score": 48,
+        "move": "g1f3",
+        "seconds": 0.00047,
+        "changed": true
+      },
+      {
+        "depth": 2,
+        "score": 12,
+        "move": "g1f3",
+        "seconds": 0.00146,
+        "changed": false
+      },
+      {
+        "depth": 3,
+        "score": 48,
+        "move": "g1f3",
+        "seconds": 0.0021,
+        "changed": false
+      },
+      {
+        "depth": 4,
+        "score": 12,
+        "move": "g1f3",
+        "seconds": 0.01273,
+        "changed": false
+      },
+      {
+        "depth": 5,
+        "score": 2,
+        "move": "g1f3",
+        "seconds": 0.03172,
+        "changed": false
+      },
+      {
+        "depth": 6,
+        "score": 12,
+        "move": "g1f3",
+        "seconds": 0.06514,
+        "changed": false
+      },
+      {
+        "depth": 7,
+        "score": 15,
+        "move": "g1f3",
+        "seconds": 0.3893,
+        "changed": false
+      },
+      {
+        "depth": 8,
+        "score": 12,
+        "move": "g1f3",
+        "seconds": 0.38302,
+        "changed": false
+      }
+    ],
+    "tt_entries": 12330,
+    "name": "opening",
+    "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"
+  },
+  {
+    "move": "e2a6",
+    "score": 11,
+    "depth": 5,
+    "nodes": 4787,
+    "qnodes": 39934,
+    "nps": 44772,
+    "wall": 0.999595999950543,
+    "tt_hit_rate": 0.48506371422602884,
+    "best_move_changes": 0,
+    "iterations": [
+      {
+        "depth": 1,
+        "score": 96,
+        "move": "e2a6",
+        "seconds": 0.01786,
+        "changed": true
+      },
+      {
+        "depth": 2,
+        "score": 96,
+        "move": "e2a6",
+        "seconds": 0.02252,
+        "changed": false
+      },
+      {
+        "depth": 3,
+        "score": 62,
+        "move": "e2a6",
+        "seconds": 0.1051,
+        "changed": false
+      },
+      {
+        "depth": 4,
+        "score": 62,
+        "move": "e2a6",
+        "seconds": 0.14014,
+        "changed": false
+      },
+      {
+        "depth": 5,
+        "score": 11,
+        "move": "e2a6",
+        "seconds": 0.71319,
+        "changed": false
+      }
+    ],
+    "tt_entries": 2465,
+    "name": "tactical",
+    "fen": "r3k2r/p1ppqpb1/bn2pnp1/3PN3/1p2P3/2N2Q1p/PPPBBPPP/R3K2R w KQkq - 0 1"
+  },
+  {
+    "move": "a2a4",
+    "score": -17,
+    "depth": 7,
+    "nodes": 14263,
+    "qnodes": 117065,
+    "nps": 52414,
+    "wall": 2.507190709002316,
+    "tt_hit_rate": 0.33990044170230665,
+    "best_move_changes": 2,
+    "iterations": [
+      {
+        "depth": 1,
+        "score": -40,
+        "move": "d2c4",
+        "seconds": 0.00167,
+        "changed": true
+      },
+      {
+        "depth": 2,
+        "score": -25,
+        "move": "f3g5",
+        "seconds": 0.01485,
+        "changed": true
+      },
+      {
+        "depth": 3,
+        "score": -35,
+        "move": "f3g5",
+        "seconds": 0.01505,
+        "changed": false
+      },
+      {
+        "depth": 4,
+        "score": -21,
+        "move": "f3g5",
+        "seconds": 0.04052,
+        "changed": false
+      },
+      {
+        "depth": 5,
+        "score": -23,
+        "move": "a2a4",
+        "seconds": 0.44497,
+        "changed": true
+      },
+      {
+        "depth": 6,
+        "score": -17,
+        "move": "a2a4",
+        "seconds": 0.56589,
+        "changed": false
+      },
+      {
+        "depth": 7,
+        "score": -17,
+        "move": "a2a4",
+        "seconds": 0.5176,
+        "changed": false
+      }
+    ],
+    "tt_entries": 9280,
+    "name": "quiet",
+    "fen": "r2q1rk1/pp2bppp/2npbn2/2p1p3/4P3/2PP1N1P/PPBN1PP1/R1BQR1K1 w - - 0 10"
+  },
+  {
+    "move": "f3g3",
+    "score": 40,
+    "depth": 12,
+    "nodes": 53685,
+    "qnodes": 52549,
+    "nps": 67598,
+    "wall": 1.5730487919645384,
+    "tt_hit_rate": 0.7906526033319667,
+    "best_move_changes": 1,
+    "iterations": [
+      {
+        "depth": 1,
+        "score": 46,
+        "move": "f3e3",
+        "seconds": 0.00016,
+        "changed": true
+      },
+      {
+        "depth": 2,
+        "score": 56,
+        "move": "f3e3",
+        "seconds": 0.00059,
+        "changed": false
+      },
+      {
+        "depth": 3,
+        "score": 32,
+        "move": "f3e3",
+        "seconds": 0.00144,
+        "changed": false
+      },
+      {
+        "depth": 4,
+        "score": 56,
+        "move": "f3e3",
+        "seconds": 0.0025,
+        "changed": false
+      },
+      {
+        "depth": 5,
+        "score": 26,
+        "move": "f3g3",
+        "seconds": 0.02146,
+        "changed": true
+      },
+      {
+        "depth": 6,
+        "score": 40,
+        "move": "f3g3",
+        "seconds": 0.01594,
+        "changed": false
+      },
+      {
+        "depth": 7,
+        "score": 28,
+        "move": "f3g3",
+        "seconds": 0.02472,
+        "changed": false
+      },
+      {
+        "depth": 8,
+        "score": 18,
+        "move": "f3g3",
+        "seconds": 0.04673,
+        "changed": false
+      },
+      {
+        "depth": 9,
+        "score": 26,
+        "move": "f3g3",
+        "seconds": 0.1582,
+        "changed": false
+      },
+      {
+        "depth": 10,
+        "score": 42,
+        "move": "f3g3",
+        "seconds": 0.23429,
+        "changed": false
+      },
+      {
+        "depth": 11,
+        "score": 18,
+        "move": "f3g3",
+        "seconds": 0.26806,
+        "changed": false
+      },
+      {
+        "depth": 12,
+        "score": 40,
+        "move": "f3g3",
+        "seconds": 0.79738,
+        "changed": false
+      }
+    ],
+    "tt_entries": 11234,
+    "name": "endgame",
+    "fen": "8/2p2k2/1p1p1p2/p2Pp3/P1P1P1P1/1P3K2/8/8 w - - 0 40"
+  },
+  {
+    "move": "d1a1",
+    "score": 344,
+    "depth": 7,
+    "nodes": 18492,
+    "qnodes": 117956,
+    "nps": 54570,
+    "wall": 2.5028816669946536,
+    "tt_hit_rate": 0.32527579493835174,
+    "best_move_changes": 2,
+    "iterations": [
+      {
+        "depth": 1,
+        "score": 341,
+        "move": "a2a4",
+        "seconds": 0.00646,
+        "changed": true
+      },
+      {
+        "depth": 2,
+        "score": 352,
+        "move": "a2a4",
+        "seconds": 0.00644,
+        "changed": false
+      },
+      {
+        "depth": 3,
+        "score": 341,
+        "move": "a2a3",
+        "seconds": 0.05977,
+        "changed": true
+      },
+      {
+        "depth": 4,
+        "score": 352,
+        "move": "a2a3",
+        "seconds": 0.02721,
+        "changed": false
+      },
+      {
+        "depth": 5,
+        "score": 338,
+        "move": "d1a1",
+        "seconds": 0.25546,
+        "changed": true
+      },
+      {
+        "depth": 6,
+        "score": 348,
+        "move": "d1a1",
+        "seconds": 0.44972,
+        "changed": false
+      },
+      {
+        "depth": 7,
+        "score": 344,
+        "move": "d1a1",
+        "seconds": 0.49431,
+        "changed": false
+      }
+    ],
+    "tt_entries": 12285,
+    "name": "imbalance",
+    "fen": "2r3k1/pp3ppp/4p3/3q4/3P4/2P1BN2/PP3PPP/3RR1K1 w - - 0 25"
+  },
+  {
+    "move": "c3e4",
+    "score": 351,
+    "depth": 8,
+    "nodes": 18363,
+    "qnodes": 90196,
+    "nps": 55379,
+    "wall": 1.9618969999719411,
+    "tt_hit_rate": 0.4076131351086424,
+    "best_move_changes": 0,
+    "iterations": [
+      {
+        "depth": 1,
+        "score": 301,
+        "move": "c3e4",
+        "seconds": 0.00123,
+        "changed": true
+      },
+      {
+        "depth": 2,
+        "score": 333,
+        "move": "c3e4",
+        "seconds": 0.01248,
+        "changed": false
+      },
+      {
+        "depth": 3,
+        "score": 333,
+        "move": "c3e4",
+        "seconds": 0.00649,
+        "changed": false
+      },
+      {
+        "depth": 4,
+        "score": 355,
+        "move": "c3e4",
+        "seconds": 0.05469,
+        "changed": false
+      },
+      {
+        "depth": 5,
+        "score": 355,
+        "move": "c3e4",
+        "seconds": 0.07701,
+        "changed": false
+      },
+      {
+        "depth": 6,
+        "score": 355,
+        "move": "c3e4",
+        "seconds": 0.18104,
+        "changed": false
+      },
+      {
+        "depth": 7,
+        "score": 344,
+        "move": "c3e4",
+        "seconds": 0.46439,
+        "changed": false
+      },
+      {
+        "depth": 8,
+        "score": 351,
+        "move": "c3e4",
+        "seconds": 1.16286,
+        "changed": false
+      }
+    ],
+    "tt_entries": 9323,
+    "name": "king_safety",
+    "fen": "r4rk1/ppp2ppp/2nq4/2b1p3/8/2NP1N2/PPP2PPP/R1BQ1RK1 w - - 0 12"
+  },
+  {
+    "move": "c5c6",
+    "score": 1121,
+    "depth": 9,
+    "nodes": 26717,
+    "qnodes": 58746,
+    "nps": 67361,
+    "wall": 1.2701781659852713,
+    "tt_hit_rate": 0.5545158513306134,
+    "best_move_changes": 0,
+    "iterations": [
+      {
+        "depth": 1,
+        "score": 442,
+        "move": "c5c6",
+        "seconds": 0.00022,
+        "changed": true
+      },
+      {
+        "depth": 2,
+        "score": 438,
+        "move": "c5c6",
+        "seconds": 0.00071,
+        "changed": false
+      },
+      {
+        "depth": 3,
+        "score": 516,
+        "move": "c5c6",
+        "seconds": 0.00103,
+        "changed": false
+      },
+      {
+        "depth": 4,
+        "score": 1071,
+        "move": "c5c6",
+        "seconds": 0.01319,
+        "changed": false
+      },
+      {
+        "depth": 5,
+        "score": 1071,
+        "move": "c5c6",
+        "seconds": 0.00721,
+        "changed": false
+      },
+      {
+        "depth": 6,
+        "score": 1088,
+        "move": "c5c6",
+        "seconds": 0.03197,
+        "changed": false
+      },
+      {
+        "depth": 7,
+        "score": 1094,
+        "move": "c5c6",
+        "seconds": 0.06339,
+        "changed": false
+      },
+      {
+        "depth": 8,
+        "score": 1100,
+        "move": "c5c6",
+        "seconds": 0.13143,
+        "changed": false
+      },
+      {
+        "depth": 9,
+        "score": 1121,
+        "move": "c5c6",
+        "seconds": 1.01952,
+        "changed": false
+      }
+    ],
+    "tt_entries": 11882,
+    "name": "passed_pawns",
+    "fen": "8/5pk1/7p/2P5/3K4/8/5PPP/8 w - - 0 40"
+  }
+]

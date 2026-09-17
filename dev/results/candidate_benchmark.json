@@ -1,0 +1,503 @@
+{
+  "import_seconds": 0.005703708971850574,
+  "budget_seconds": 2.5,
+  "positions": [
+    {
+      "move": "g1f3",
+      "score": 12,
+      "depth": 8,
+      "nodes": 27990,
+      "qnodes": 117418,
+      "nps": 58106,
+      "wall": 2.5043830829672515,
+      "tt_hit_rate": 0.46438013576277243,
+      "best_move_changes": 0,
+      "iterations": [
+        {
+          "depth": 1,
+          "score": 48,
+          "move": "g1f3",
+          "seconds": 0.00046,
+          "changed": true
+        },
+        {
+          "depth": 2,
+          "score": 12,
+          "move": "g1f3",
+          "seconds": 0.00145,
+          "changed": false
+        },
+        {
+          "depth": 3,
+          "score": 48,
+          "move": "g1f3",
+          "seconds": 0.00241,
+          "changed": false
+        },
+        {
+          "depth": 4,
+          "score": 12,
+          "move": "g1f3",
+          "seconds": 0.01238,
+          "changed": false
+        },
+        {
+          "depth": 5,
+          "score": 2,
+          "move": "g1f3",
+          "seconds": 0.02958,
+          "changed": false
+        },
+        {
+          "depth": 6,
+          "score": 12,
+          "move": "g1f3",
+          "seconds": 0.06225,
+          "changed": false
+        },
+        {
+          "depth": 7,
+          "score": 15,
+          "move": "g1f3",
+          "seconds": 0.31333,
+          "changed": false
+        },
+        {
+          "depth": 8,
+          "score": 12,
+          "move": "g1f3",
+          "seconds": 0.39668,
+          "changed": false
+        }
+      ],
+      "tt_entries": 12915,
+      "name": "opening"
+    },
+    {
+      "move": "e2a6",
+      "score": 11,
+      "depth": 5,
+      "nodes": 4787,
+      "qnodes": 39934,
+      "nps": 45162,
+      "wall": 0.9908262920798734,
+      "tt_hit_rate": 0.48506371422602884,
+      "best_move_changes": 0,
+      "iterations": [
+        {
+          "depth": 1,
+          "score": 96,
+          "move": "e2a6",
+          "seconds": 0.01744,
+          "changed": true
+        },
+        {
+          "depth": 2,
+          "score": 96,
+          "move": "e2a6",
+          "seconds": 0.02246,
+          "changed": false
+        },
+        {
+          "depth": 3,
+          "score": 62,
+          "move": "e2a6",
+          "seconds": 0.10524,
+          "changed": false
+        },
+        {
+          "depth": 4,
+          "score": 62,
+          "move": "e2a6",
+          "seconds": 0.1402,
+          "changed": false
+        },
+        {
+          "depth": 5,
+          "score": 11,
+          "move": "e2a6",
+          "seconds": 0.70483,
+          "changed": false
+        }
+      ],
+      "tt_entries": 2465,
+      "name": "tactical"
+    },
+    {
+      "move": "a2a4",
+      "score": -17,
+      "depth": 7,
+      "nodes": 14185,
+      "qnodes": 116375,
+      "nps": 52138,
+      "wall": 2.50571758300066,
+      "tt_hit_rate": 0.3411350017624251,
+      "best_move_changes": 2,
+      "iterations": [
+        {
+          "depth": 1,
+          "score": -40,
+          "move": "d2c4",
+          "seconds": 0.00162,
+          "changed": true
+        },
+        {
+          "depth": 2,
+          "score": -25,
+          "move": "f3g5",
+          "seconds": 0.01618,
+          "changed": true
+        },
+        {
+          "depth": 3,
+          "score": -35,
+          "move": "f3g5",
+          "seconds": 0.0163,
+          "changed": false
+        },
+        {
+          "depth": 4,
+          "score": -21,
+          "move": "f3g5",
+          "seconds": 0.04206,
+          "changed": false
+        },
+        {
+          "depth": 5,
+          "score": -23,
+          "move": "a2a4",
+          "seconds": 0.42813,
+          "changed": true
+        },
+        {
+          "depth": 6,
+          "score": -17,
+          "move": "a2a4",
+          "seconds": 0.55256,
+          "changed": false
+        },
+        {
+          "depth": 7,
+          "score": -17,
+          "move": "a2a4",
+          "seconds": 0.505,
+          "changed": false
+        }
+      ],
+      "tt_entries": 9211,
+      "name": "quiet"
+    },
+    {
+      "move": "f3g3",
+      "score": 40,
+      "depth": 12,
+      "nodes": 53685,
+      "qnodes": 52549,
+      "nps": 65915,
+      "wall": 1.6131351660005748,
+      "tt_hit_rate": 0.7906526033319667,
+      "best_move_changes": 1,
+      "iterations": [
+        {
+          "depth": 1,
+          "score": 46,
+          "move": "f3e3",
+          "seconds": 0.00015,
+          "changed": true
+        },
+        {
+          "depth": 2,
+          "score": 56,
+          "move": "f3e3",
+          "seconds": 0.00058,
+          "changed": false
+        },
+        {
+          "depth": 3,
+          "score": 32,
+          "move": "f3e3",
+          "seconds": 0.00147,
+          "changed": false
+        },
+        {
+          "depth": 4,
+          "score": 56,
+          "move": "f3e3",
+          "seconds": 0.00282,
+          "changed": false
+        },
+        {
+          "depth": 5,
+          "score": 26,
+          "move": "f3g3",
+          "seconds": 0.01263,
+          "changed": true
+        },
+        {
+          "depth": 6,
+          "score": 40,
+          "move": "f3g3",
+          "seconds": 0.01625,
+          "changed": false
+        },
+        {
+          "depth": 7,
+          "score": 28,
+          "move": "f3g3",
+          "seconds": 0.02755,
+          "changed": false
+        },
+        {
+          "depth": 8,
+          "score": 18,
+          "move": "f3g3",
+          "seconds": 0.04951,
+          "changed": false
+        },
+        {
+          "depth": 9,
+          "score": 26,
+          "move": "f3g3",
+          "seconds": 0.16746,
+          "changed": false
+        },
+        {
+          "depth": 10,
+          "score": 42,
+          "move": "f3g3",
+          "seconds": 0.22783,
+          "changed": false
+        },
+        {
+          "depth": 11,
+          "score": 18,
+          "move": "f3g3",
+          "seconds": 0.29001,
+          "changed": false
+        },
+        {
+          "depth": 12,
+          "score": 40,
+          "move": "f3g3",
+          "seconds": 0.81532,
+          "changed": false
+        }
+      ],
+      "tt_entries": 11234,
+      "name": "endgame"
+    },
+    {
+      "move": "d1a1",
+      "score": 344,
+      "depth": 7,
+      "nodes": 18598,
+      "qnodes": 119130,
+      "nps": 55043,
+      "wall": 2.504478833056055,
+      "tt_hit_rate": 0.32429961821799214,
+      "best_move_changes": 2,
+      "iterations": [
+        {
+          "depth": 1,
+          "score": 341,
+          "move": "a2a4",
+          "seconds": 0.00642,
+          "changed": true
+        },
+        {
+          "depth": 2,
+          "score": 352,
+          "move": "a2a4",
+          "seconds": 0.00683,
+          "changed": false
+        },
+        {
+          "depth": 3,
+          "score": 341,
+          "move": "a2a3",
+          "seconds": 0.06298,
+          "changed": true
+        },
+        {
+          "depth": 4,
+          "score": 352,
+          "move": "a2a3",
+          "seconds": 0.02838,
+          "changed": false
+        },
+        {
+          "depth": 5,
+          "score": 338,
+          "move": "d1a1",
+          "seconds": 0.24341,
+          "changed": true
+        },
+        {
+          "depth": 6,
+          "score": 348,
+          "move": "d1a1",
+          "seconds": 0.44952,
+          "changed": false
+        },
+        {
+          "depth": 7,
+          "score": 344,
+          "move": "d1a1",
+          "seconds": 0.48378,
+          "changed": false
+        }
+      ],
+      "tt_entries": 12373,
+      "name": "imbalance"
+    },
+    {
+      "move": "c3e4",
+      "score": 351,
+      "depth": 8,
+      "nodes": 18363,
+      "qnodes": 90196,
+      "nps": 54465,
+      "wall": 1.9947062500286847,
+      "tt_hit_rate": 0.4076131351086424,
+      "best_move_changes": 0,
+      "iterations": [
+        {
+          "depth": 1,
+          "score": 301,
+          "move": "c3e4",
+          "seconds": 0.00124,
+          "changed": true
+        },
+        {
+          "depth": 2,
+          "score": 333,
+          "move": "c3e4",
+          "seconds": 0.01292,
+          "changed": false
+        },
+        {
+          "depth": 3,
+          "score": 333,
+          "move": "c3e4",
+          "seconds": 0.00665,
+          "changed": false
+        },
+        {
+          "depth": 4,
+          "score": 355,
+          "move": "c3e4",
+          "seconds": 0.05694,
+          "changed": false
+        },
+        {
+          "depth": 5,
+          "score": 355,
+          "move": "c3e4",
+          "seconds": 0.07891,
+          "changed": false
+        },
+        {
+          "depth": 6,
+          "score": 355,
+          "move": "c3e4",
+          "seconds": 0.18713,
+          "changed": false
+        },
+        {
+          "depth": 7,
+          "score": 344,
+          "move": "c3e4",
+          "seconds": 0.49309,
+          "changed": false
+        },
+        {
+          "depth": 8,
+          "score": 351,
+          "move": "c3e4",
+          "seconds": 1.15623,
+          "changed": false
+        }
+      ],
+      "tt_entries": 9323,
+      "name": "king_safety"
+    },
+    {
+      "move": "c5c6",
+      "score": 1121,
+      "depth": 9,
+      "nodes": 26717,
+      "qnodes": 58746,
+      "nps": 67558,
+      "wall": 1.2667873339960352,
+      "tt_hit_rate": 0.5545158513306134,
+      "best_move_changes": 0,
+      "iterations": [
+        {
+          "depth": 1,
+          "score": 442,
+          "move": "c5c6",
+          "seconds": 0.00023,
+          "changed": true
+        },
+        {
+          "depth": 2,
+          "score": 438,
+          "move": "c5c6",
+          "seconds": 0.00073,
+          "changed": false
+        },
+        {
+          "depth": 3,
+          "score": 516,
+          "move": "c5c6",
+          "seconds": 0.00105,
+          "changed": false
+        },
+        {
+          "depth": 4,
+          "score": 1071,
+          "move": "c5c6",
+          "seconds": 0.01391,
+          "changed": false
+        },
+        {
+          "depth": 5,
+          "score": 1071,
+          "move": "c5c6",
+          "seconds": 0.00771,
+          "changed": false
+        },
+        {
+          "depth": 6,
+          "score": 1088,
+          "move": "c5c6",
+          "seconds": 0.03318,
+          "changed": false
+        },
+        {
+          "depth": 7,
+          "score": 1094,
+          "move": "c5c6",
+          "seconds": 0.06582,
+          "changed": false
+        },
+        {
+          "depth": 8,
+          "score": 1100,
+          "move": "c5c6",
+          "seconds": 0.13614,
+          "changed": false
+        },
+        {
+          "depth": 9,
+          "score": 1121,
+          "move": "c5c6",
+          "seconds": 1.00618,
+          "changed": false
+        }
+      ],
+      "tt_entries": 11882,
+      "name": "passed_pawns"
+    }
+  ]
+}

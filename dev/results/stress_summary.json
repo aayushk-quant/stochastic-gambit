@@ -1,0 +1,14 @@
+{
+  "calls": 54,
+  "clock_rate_factors": [1, 3, 6],
+  "clock_values_ms": [120000, 1000, 300, 50, 1, 0],
+  "positions": ["tactical", "quiet", "passed_pawns"],
+  "illegal": 0,
+  "unexpected_exceptions": 0,
+  "flags": 0,
+  "maximum_scaled_hard_limit_overrun_seconds": 0.002634964198140466,
+  "tt_entries_after_overfill": 180000,
+  "tt_fill_and_evict_seconds": 0.5890654170652851,
+  "peak_rss_bytes": 179568640,
+  "note": "Clock-rate scaling is a stress simulation, not an EPYC hardware benchmark. Zero-clock calls are best-effort legal fallbacks."
+}
