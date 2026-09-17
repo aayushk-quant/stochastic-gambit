@@ -2,7 +2,7 @@
 
 The final **Stochastic Gambit** submission, published from the original `chess-fr-fr` project folder. It contains a pure-Python chess engine with a single-file competition interface, regression tests, benchmarks, and a preserved development history. The engine version is **Astra v0.3**, built for the Optiver AI Chessathon and included in `submission/agent.py`.
 
-**Finished in the top 25% out of 500+ teams**, without using any neural networks or machine learning. Avoiding both was a personal challenge I set for myself: to build a competitive chess engine using classical search algorithms and handcrafted evaluation.
+**Finished in the top 25% out of 500+ teams.** The final submitted engine used no neural networks or machine learning. Avoiding both in the final engine was a personal challenge I set for myself: to build a competitive chess engine using classical search algorithms and handcrafted evaluation.
 
 The engine uses `chess` (python-chess) for board representation and legal move generation. Search, evaluation, time management, and game-history tracking live in the engine itself. It does not require an external engine, opening book, neural model, or tablebase.
 
@@ -85,7 +85,8 @@ The preserved v0.3 results record **48,548 assertions and 408 checked API calls*
 | `dev/see_probe.py` | Static exchange evaluation checks against legal recaptures |
 | `dev/snapshots/` | Preserved engine versions v0 through v0.3 |
 | `dev/results/` | Saved tests, benchmarks, stress results, and package smoke test |
-| `dev/DESIGN.md`, `dev/REPORT.md`, `dev/DEVLOG.md` | Architecture, results, and development chronology |
+| `dev/DESIGN.md`, `dev/REPORT.md`, `dev/DEVLOG.md` | Architecture, results, and the final Astra sprint chronology |
+| `dev/DEV_HISTORY.md` | The full September 4–11 development history, including rejected experiments |
 | `dev/RESUME.md` | Historical development checkpoints |
 | `dev/external_strength/` | Archived external-match runner, worker, tests, and reporting tools |
 
@@ -95,7 +96,7 @@ The submission source matches `dev/snapshots/v0.3/agent.py` and the `agent.py` i
 
 The scripts in `dev/external_strength/` preserve the original Astra-versus-Build3 experiment. They contain absolute paths to the original development machine and depend on a separate competition contract, opening corpus, opponent archive, Python environment, and result directory. Those external files are **not included in this repository**, so these scripts and their tests are not runnable from a fresh clone without restoring or adapting that setup. The extension script also contains the original fixed September 11, 2026 cutoff.
 
-The `RESUME.md` files describe historical checkpoints, including match monitoring instructions; they are not current setup instructions. External-match results are stored outside this project and are not represented by the local regression measurements above.
+The `RESUME.md` files describe historical checkpoints, including match monitoring instructions; they are not current setup instructions. Raw external-match results remain outside this project; `dev/DEV_HISTORY.md` summarizes the saved reports and their uncertainty. Those results are separate from the local regression measurements above.
 
 ## Limitations
 
