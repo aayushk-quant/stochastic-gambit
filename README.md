@@ -1,6 +1,6 @@
 # Stochastic Gambit
 
-The final **Stochastic Gambit** submission, published from the original `chess-fr-fr` project folder. It contains a pure-Python chess engine with a single-file competition interface, regression tests, benchmarks, and a preserved development history. The engine version is **Astra v0.3**, built for the Optiver AI Chessathon and included in `submission/agent.py`.
+The final **Stochastic Gambit** submission, published from the original `chess-fr-fr` project folder. It contains a pure-Python chess engine with a single-file competition interface, regression tests, benchmarks, and a preserved development history. The engine version is **Neoural Network**, built for the Optiver AI Chessathon and included in `submission/agent.py`.
 
 **Finished in the top 25% out of 500+ teams.** The final submitted engine used no neural networks or machine learning. Avoiding both in the final engine was a personal challenge I set for myself: to build a competitive chess engine using classical search algorithms and handcrafted evaluation.
 
