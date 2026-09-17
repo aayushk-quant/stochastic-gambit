@@ -1,6 +1,6 @@
 # Stochastic Gambit
 
-A pure-Python chess engine with a single-file competition interface, regression tests, benchmarks, and a preserved development history. The current engine is **Astra v0.3**, built for Chessathon and included in `submission/agent.py`.
+The final **Stochastic Gambit** submission, published from the original `chess-fr-fr` project folder. It contains a pure-Python chess engine with a single-file competition interface, regression tests, benchmarks, and a preserved development history. The engine version is **Astra v0.3**, built for Chessathon and included in `submission/agent.py`.
 
 The engine uses `chess` (python-chess) for board representation and legal move generation. Search, evaluation, time management, and game-history tracking live in the engine itself. It does not require an external engine, opening book, neural model, or tablebase.
 
